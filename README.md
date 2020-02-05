@@ -6,13 +6,17 @@ This package is designed to crawl job boards like Monster, LinkedIn, and Indeed 
 ## Usage
 1. Install using pip
 
-    $ pip install speedapply
+```
+$ pip install speedapply
+```
 
 In addition to the python package requirements, `speedapply` requires a `selenium`-compatible webdriver (e.g. chromedriver).
 
 2. Create a new folder to house the apply bot
 
-    $ python -m speedapply new_bot
+```
+$ python -m speedapply new_bot
+```
 
 3. Edit `new_bot/settings.py` to choose jobs and locations you want.
 
@@ -38,7 +42,9 @@ LOCATIONS = [
 4. Set environment variables for your username and password that get accessed by the bot in `new_bot/bots.py`.
 For example for `monster.com`:
 
-    $ export MONSTER_USERNAME="..." MONSTER_PASSWORD="..."
+```
+$ export MONSTER_USERNAME="..." MONSTER_PASSWORD="..."
+```
 
 ```python
 # new_bot/bots.py

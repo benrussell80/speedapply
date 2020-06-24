@@ -8,7 +8,7 @@ with open('README.md', 'r') as fh:
 setup(
     # change project name
     name="speedapply",
-    version="0.0.0",
+    version="0.0.1",
     packages=find_packages(),
     entry_points={
         'console_scripts': [

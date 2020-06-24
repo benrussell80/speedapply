@@ -18,6 +18,12 @@ In addition to the python package requirements, `speedapply` requires a `seleniu
 $ python -m speedapply new_bot
 ```
 
+or
+
+```
+$ speedapply new_bot
+```
+
 3. Edit `new_bot/settings.py` to choose jobs and locations you want.
 
 ```python

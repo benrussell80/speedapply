@@ -87,7 +87,7 @@ class Monster(JobSiteBase):
                         continue
                     else:
                         applied += 1
-                        print(f'#{applied:5} Applied to job {job_id:40}: {self.driver.find_element_by_xpath("/html/body/div[2]/main/div[1]/div[2]/div/div[1]/div[1]/div[1]/div[1]/div/header/div[1]/h1").text}')
+                        print(f'#{applied:5} Applied to job {job_id:40}')
             except:
                 continue
         print(f'Applied to {applied:5} jobs.')
